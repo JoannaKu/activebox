@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400,400i|Open+Sans:400,700|Raleway:300,400,600,700");
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+[class*="col-"] {
+  float: left; }
+
+/* HERO */
+.hero {
+  width: 100%;
+  padding-bottom: 35px;
+  background: url("../images/hero.png") center no-repeat;
+  background-size: cover; }
+  .hero .main {
+    display: flex;
+    flex-direction: column; }
+  .hero ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right; }
+  .hero li {
+    display: inline-block; }
+  .hero a {
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-weight: 700; }
+  .hero .menu {
+    margin-top: 45px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #66697e;
+    margin-left: 25px;
+    margin-right: 25px; }
+  .hero .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 155px; }
+  .hero h1 {
+    font-size: 65px;
+    color: white;
+    font-family: 'OpenSans';
+    font-weight: 700; }
+  .hero p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-size: 22px;
+    margin-top: 40px; }
+  .hero button {
+    font-size: 13px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+    width: 210px;
+    height: 46px;
+    margin-top: 75px;
+    transition: .10s; }
+
+/* FACILITIES */
+.facilities {
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 125px; }
+  .facilities h2 {
+    font-size: 14px;
+    color: #2d3033;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 33px; }
+  .facilities p {
+    font-size: 14px;
+    color: #6c7279;
+    font-family: 'Raleway';
+    margin-top: 25px;
+    padding-left: 45px;
+    padding-right: 45px; }
+  .facilities .facilities2 {
+    margin-top: 75px; }
+
+/* GALLERY */
+.gallery {
+  max-width: 100%; }
+  .gallery img {
+    max-width: 100%;
+    border: 0.5px solid white; }
+  .gallery .picture-one {
+    border-left: none; }
+  .gallery .picture-last {
+    border-right: none; }
+  .gallery .layer {
+    background-color: rgba(229, 83, 84, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    display: none; }
+  .gallery .opacity {
+    transition: .10s;
+    cursor: pointer;
+    position: relative; }
+    .gallery .opacity:hover .layer {
+      display: block; }
+  .gallery h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding-top: 20px; }
+  .gallery p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway'; }
+
+/* WORKERS */
+.workers {
+  margin-top: 100px; }
+  .workers img {
+    width: 100%; }
+  .workers .pic {
+    padding: 0 7px; }
+  .workers h2 {
+    font-size: 22px;
+    color: #2d3033;
+    font-family: 'Raleway';
+    margin-top: 30px; }
+  .workers h3 {
+    font-size: 13px;
+    color: #e84545;
+    font-family: 'Raleway';
+    margin-top: 15px; }
+  .workers p {
+    font-size: 14px;
+    color: #6c7279;
+    font-family: 'Raleway';
+    margin-top: 30px;
+    margin-right: 36px; }
+  .workers .fa {
+    height: 42px;
+    width: 40px;
+    border: 2px solid;
+    margin-bottom: 100px;
+    border-radius: 2px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 6px;
+    color: #c6cacc;
+    transition: .10s;
+    cursor: pointer; }
+    .workers .fa:hover {
+      background-color: #c6cacc;
+      color: white; }
+  .workers .fa-facebook {
+    margin-left: 0; }
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: white;
+  padding: 0;
+  margin: 0; }
+  .jumbotron .susan {
+    max-width: 100%;
+    height: 100%; }
+  .jumbotron .carousel-inner {
+    background: #53354a;
+    height: 621px; }
+  .jumbotron .container-pad {
+    padding: 0; }
+  .jumbotron h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Cardo';
+    font-style: italic;
+    margin-top: 120px;
+    margin-left: 85px;
+    margin-right: 100px; }
+  .jumbotron p {
+    font-size: 13px;
+    color: #2d3033;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: white;
+    margin-left: 85px;
+    margin-right: 100px;
+    margin-top: 28px; }
+  .jumbotron ol {
+    margin-bottom: 0;
+    bottom: 60px; }
+  .jumbotron .carousel-indicators {
+    left: 40%; }
+
+/* DOWNLOAD */
+.download {
+  text-align: center; }
+  .download h2 {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+    font-family: 'Raleway';
+    margin-top: 100px; }
+  .download p {
+    font-size: 13px;
+    color: #2d3033;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 22px; }
+  .download button {
+    font-size: 13px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+    width: 280px;
+    height: 47px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    transition: .10s; }
+
+/* ABOUT US */
+.about-us {
+  background-color: #3a3e64;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 50px; }
+  .about-us h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 67px; }
+  .about-us p {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway'; }
+  .about-us .fa {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px; }
+
+/* FOOTER */
+footer {
+  background-color: #313454;
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer p {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway'; }
+  footer .heart {
+    color: red; }
+  footer .author {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway'; }
+
+/* MAX-WIDTH 767 */
+@media (max-width: 767px) {
+  /* HERO */
+  .hero .menu {
+    text-align: center; }
+  .hero ul {
+    float: none;
+    margin-top: 40px; }
+  .hero li {
+    display: block; }
+  .hero a {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px; }
+  .hero .line {
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  .hero h1 {
+    font-size: 24px;
+    line-height: 40px; }
+  .hero p {
+    font-size: 18px;
+    line-height: 26px; }
+
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; }
+
+  /* FACILITIES */
+  .facilities {
+    margin-top: 30px;
+    margin-bottom: 70px; }
+    .facilities img {
+      margin-top: 50px; }
+    .facilities .facilities2 {
+      margin-top: 0; }
+
+  /* GALLERY */
+  .gallery
+  .opacity {
+    float: none;
+    text-align: center; }
+    .gallery
+    .opacity:hover .layer {
+      display: none; }
+
+  /* WORKERS */
+  .workers {
+    text-align: center; }
+    .workers p {
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-bottom: 30px;
+      line-height: 25px; }
+    .workers img {
+      width: 50%; }
+    .workers .fa {
+      display: inline-flex;
+      float: none;
+      margin: 0 3px;
+      margin-bottom: 40px; }
+
+  /* JUMBOTRON */
+  .jumbotron .susan {
+    width: 100%; }
+  .jumbotron .carousel-inner {
+    height: 600px;
+    text-align: center; }
+  .jumbotron h2 {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .jumbotron p {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .jumbotron .carousel-indicators {
+    left: 50%; }
+
+  /* DOWNLOAD */
+  .download {
+    padding-left: 25px;
+    padding-right: 25px; }
+    .download h2 {
+      line-height: 40px;
+      margin-top: 140px; }
+    .download p {
+      margin-top: 30px; }
+    .download button {
+      margin-top: 45px;
+      margin-bottom: 140px; }
+
+  /* ABOUT US */
+  .about-us {
+    height: 500px; }
+    .about-us h2, .about-us p {
+      font-size: 16px; }
+    .about-us p {
+      margin-top: 20px; }
+    .about-us .social-media {
+      text-align: center; }
+
+  /* FOOTER */
+  footer {
+    padding-left: 25px;
+    padding-right: 25px; } }
